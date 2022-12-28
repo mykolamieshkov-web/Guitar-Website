@@ -408,3 +408,23 @@ color: #FFFFFF;
    padding-top: 62%;
    }
 }
+ /* brands PC */
+ .brands_title {
+   margin: 0 auto;
+ }
+ .brands_categories {
+   padding-top: 75px;
+ }
+ .brands_content {
+   margin: 0 auto;
+   padding-top: 35px;
+   width: 100%;
+   height: 229px;
+   background-image: url("../img/content/brands/brands_block_bg.PNG");
+  background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+ /* brands mobile */
+ @media (max-width: 31.25rem) {
+ }
