@@ -428,3 +428,91 @@ color: #FFFFFF;
  /* brands mobile */
  @media (max-width: 31.25rem) {
  }
+ /* payment PC */
+ .payment_block {
+
+   width: 100%;
+   height: 610px;
+   margin-top: 136px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   background: #121212;
+ }
+ .payment_block p {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 44px;
+   line-height: 53px;
+   color: #E5E5E5;
+   text-align: center;
+   padding-top: 93px;
+
+ }
+ .payment_block_content {
+   padding: 100px;
+ }
+ .payment_block_content_blocks {
+   margin-top: 75px;
+   width: 100%;
+   height: fit-content;
+   justify-content: space-around;
+   display: flex;
+ }
+ .block img {
+   max-width: 100%;
+   width: 32px;
+   height: 32px;
+   
+ }
+ #grey {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: center;
+   text-transform: capitalize;
+   
+   color: #666666;
+ }
+ #white {
+   font-family: 'Poppins', sans-serif;   
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+ }
+ /* payment mobile */
+ @media (max-width: 31.25rem) {
+   .payment_block {
+      height: fit-content;
+   }
+   .payment_block p {
+      font-size: 22px;
+      line-height: 27px;
+      white-space: nowrap;
+      padding-top: 35px;
+   }
+   .payment_block_content {
+      padding: 50px;
+   }
+   .block img {
+      width: 22px;
+      height: 22px;
+   }
+   #white {
+      font-size: 16px;
+      line-height: 22px;
+   }
+   #grey {
+      line-height: 15px;
+      font-size: 12px;
+   }
+}
