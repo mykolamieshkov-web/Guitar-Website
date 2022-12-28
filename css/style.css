@@ -492,7 +492,7 @@ color: #FFFFFF;
  /* payment mobile */
  @media (max-width: 31.25rem) {
    .payment_block {
-      height: fit-content;
+      height: 590px;
    }
    .payment_block p {
       font-size: 22px;
