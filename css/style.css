@@ -180,7 +180,9 @@ justify-content: flex-end;
 }
 /* header mobille */
 @media (max-width: 31.25rem) {
-
+ .header {
+   height: fit-content;
+ }
    .header_top {
       margin: 5px;
    }
@@ -252,4 +254,112 @@ justify-content: flex-end;
    
 }
 }
+/* section store PC */
+.section_store {
+width:1200px;
+height:935px;
+padding: 120px;
+margin: 0 auto;
+}
+.card {
+   width: 33.3%;
+   height: 314px;
+}
+.card img {
+   max-width: 100%;
+}
+.card p {
+font-family: 'Poppins', sans-serif;  
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #121212;
+}
+#sectiontitle {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 44px;
+   line-height: 53px;
+   color: #121212;
+   }
+   .section_store_subtitle {
+   display: flex;
+   }
+   #left {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.08em;
+   justify-content: flex-start;
+   float: left;
+   white-space: nowrap;
+   }
 
+
+   #right {
+font-family: 'Poppins', sans-serif;
+justify-content: flex-end;
+float: right; 
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+margin-left: 100%;
+color: #868686;
+white-space: nowrap;
+
+   }
+   .section_store_cards {
+      width: 100%;
+      height: 350px;
+      display: flex;
+      justify-content: space-between;
+      gap: 54px;
+   }
+@media (max-width: 31.25rem) {
+.section_store {
+width: 100%;
+height: fit-content;
+padding:15px;
+}
+#sectiontitle {
+   font-size: 22px;
+   line-height: 27px;
+   white-space: nowrap;
+}
+.section_store_subtitle {
+display: flex;
+}
+#left {
+ font-size: 12px;
+ line-height: 15px;  
+   
+   
+}
+#right {
+ font-size: 10px;
+margin-left: 142px;   
+}
+.section_store_cards {
+   height: fit-content;
+   gap: 4px;
+   zoom: 60%;
+   margin: 0 auto;
+}
+.card {
+   width: fit-content;
+}
+.card img {
+   width: 55%;
+   height: 55%;
+}
+.card p {
+   font-size: 12px;
+   line-height: 20px;
+}
+}
