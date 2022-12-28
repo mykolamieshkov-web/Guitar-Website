@@ -430,7 +430,6 @@ color: #FFFFFF;
  }
  /* payment PC */
  .payment_block {
-
    width: 100%;
    height: 610px;
    margin-top: 136px;
@@ -453,6 +452,7 @@ color: #FFFFFF;
  }
  .payment_block_content {
    padding: 100px;
+   width: 100%;
  }
  .payment_block_content_blocks {
    margin-top: 75px;
