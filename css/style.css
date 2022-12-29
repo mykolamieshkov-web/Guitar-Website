@@ -489,8 +489,11 @@ border: none;
       line-height: 20px;
    }
    .payment_content_picture {
-      margin:85px;
-      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:85px;
+      justify-content: center;
+      gap: 30px;
      
    }
    .picture_block {
