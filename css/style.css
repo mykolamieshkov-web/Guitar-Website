@@ -592,6 +592,7 @@ color: #666666;
       display: flex;
       justify-content: center;
       justify-items: center;
+      padding-top: 100px;
 
    }
    .customers_section_picture {
