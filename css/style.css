@@ -428,90 +428,77 @@ color: #FFFFFF;
  /* brands mobile none */
 
  /* payment PC */
- .payment_block {
+ .payment {
    width: 100%;
-   height: 610px;
-   margin-top: 136px;
+   height: 508px;
+   margin-top: 255px;
+   background:  #121212;
+ }
+ .payment_title {
+   padding-top: 93px;
    margin-left: auto;
    margin-right: auto;
    display: block;
-   background: #121212;
  }
- .payment_block p {
-   text-align: center;
-   font-family: 'Open Sans', sans-serif;
-   font-style: normal;
-   font-weight: 600;
-   font-size: 44px;
-   line-height: 53px;
-   color: #E5E5E5;
-   text-align: center;
-   padding-top: 93px;
-
- }
- .payment_block_content {
-   padding: 100px;
-   width: 100%;
- }
- .payment_block_content_blocks {
-   margin-top: 75px;
-   width: 100%;
-   height: fit-content;
-   justify-content: space-around;
-   display: flex;
- }
- .block img {
-   max-width: 100%;
-   width: 32px;
-   height: 32px;
-   
- }
- #grey {
-   font-family: 'Poppins', sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 21px;
-   text-align: center;
-   text-transform: capitalize;
-   
-   color: #666666;
- }
- #white {
-   font-family: 'Poppins', sans-serif;   
+ .payment_title p {
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-
+font-size: 44px;
+line-height: 53px;
 color: #FFFFFF;
+text-align: center;
  }
+ .payment_content_picture {
+   margin-top: 115px;
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   height: 90px;
+ 
+  
+ }
+ .picture_block {
+   width: 72px;
+   height: 72px;
+background: #262626;
+border-radius: 20px;
+border: none;
+ }
+.picture_block img {
+   width: 32px;
+   height: 32px;
+   max-width: 100%;
+   text-align: center;
+   margin-left:auto;
+   margin-right: auto;
+   display: block;
+   justify-items: center;
+   justify-self: center;
+}
  /* payment mobile */
  @media (max-width: 31.25rem) {
-   .payment_block {
-      height: 590px;
+   .payment {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 100vw;
+      margin-top: 120px;
    }
-   .payment_block p {
-      font-size: 22px;
-      line-height: 27px;
-      white-space: nowrap;
-      padding-top: 35px;
+   .payment_title p {
+      font-size: 18px;
+      line-height: 20px;
    }
-   .payment_block_content {
-      padding: 50px;
+   .payment_content_picture {
+      margin:85px;
+     
    }
-   .block img {
-      width: 22px;
-      height: 22px;
+   .picture_block {
+      width: 36px;
+      height: 36px;
    }
-   #white {
-      font-size: 16px;
-      line-height: 22px;
-   }
-   #grey {
-      line-height: 15px;
-      font-size: 12px;
-   }
+
+.picture_block img {
+width: 15px;
+height: 15px;
+ } 
 }
