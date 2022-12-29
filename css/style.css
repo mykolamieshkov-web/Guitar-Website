@@ -32,6 +32,7 @@ body {
    height: 100%;
    line-height: 1;
     background:#E5E5E5;  
+    scroll-behavior: smooth;
 
 }
 .wrapper {
@@ -553,3 +554,56 @@ gap: 2px;
    font-weight: 18px;
  }
 }
+/* customers block PC */
+.customers_section_content {
+   width: 100%;
+   height: 345px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-top: 280px;
+}
+.customers_section_picture {
+width: 284.72px;
+height: 257.89px;
+background-color: #FF6428;
+border-radius: 40px 0px 400px 400px;
+transform: rotate(-7.72deg);
+float: left;
+justify-content: flex-start;
+margin-right: 610px;
+background-image:url("../img/content/customers/customer_photo.PNG") ;
+background-size: cover;
+background-position: right;
+}
+.customers_section_text p {
+font-family: 'Poppins', sans-serif;     
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #666666;
+}
+/* customers block mobile */
+@media (max-width: 31.25rem) {
+   .customers_section_content {
+      height: 330px;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+
+   }
+   .customers_section_picture {
+      width: 40%;
+      height: 40%;
+      margin: auto;
+      border-radius: 25px 0px 150px 150px;     
+    justify-self: flex-start;
+    margin-right: 85px;
+   }
+   .customers_section_text p {
+      font-size: 16px;
+      line-height: 20px;
+   }
+} 
