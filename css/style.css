@@ -608,3 +608,69 @@ color: #666666;
       line-height: 20px;
    }
 } 
+/* Guitar app section PC */
+.guitar_app_section {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   height: 533px;
+}
+.guitar_app_section_content {
+   display: flex;
+   gap: 120px;
+   justify-content: space-around;
+}
+.guitar_app_section_text img {
+   width: 171px;
+   height: 57px;
+   max-width: 100%;
+   border-radius: 7px;
+}
+ 
+  
+
+.guitar_app_section_text{
+display: block;
+width: 484px;
+}
+.section_text_links {
+   display: flex;
+   justify-content: space-between;
+   float: left;
+   gap: 25px;
+}
+
+.guitar_app_section_pictures {
+   width: 320px;
+   height: 320px;
+  display: flex;
+  justify-self: center;
+  border-radius: 50%;
+  background: #FF6428;
+  justify-content: space-between;
+
+}
+/* Guitar app section mobile */
+@media (max-width: 31.25rem) {
+   .guitar_app_section { 
+width: 100vw;
+height: fit-content;
+}
+.guitar_app_section_content {
+   gap: 25px;
+   justify-content: space-between;
+}
+.section_text_links {
+   gap: 10px;
+}
+.guitar_app_section_text img {
+   width: 85px;
+   height: 30px;
+}
+
+.guitar_app_section_pictures {
+   width: 150px;
+   height: 150px;
+}
+}
