@@ -490,6 +490,7 @@ border: none;
    }
    .payment_content_picture {
       margin:85px;
+      justify-content: space-between;
      
    }
    .picture_block {
