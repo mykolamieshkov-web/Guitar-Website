@@ -384,6 +384,7 @@ height: 415px;
    background-size: cover;
 }
 .category p {
+font-family: 'Poppins', sans-serif;  
 padding-top: 220px;
 font-style: normal;
 font-weight: 600;
@@ -474,6 +475,23 @@ border: none;
    display: block;
    justify-items: center;
    justify-self: center;
+   margin-top: 15px;
+}
+.payment_content_text {
+   margin: 45px;
+   display: flex;
+   justify-content: space-around;
+   height: 90px;
+}
+.payment_content_text p {
+font-family:'Poppins', sans-serif;  
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
  /* payment mobile */
  @media (max-width: 31.25rem) {
@@ -504,5 +522,14 @@ border: none;
 .picture_block img {
 width: 15px;
 height: 15px;
+margin-top: 7px;
  } 
+ .payment_content_text {
+justify-content: space-between;
+gap: 2px;
+ }
+ .payment_content_text p {
+   font-size: 16px;
+   line-height: 12px;
+ }
 }
