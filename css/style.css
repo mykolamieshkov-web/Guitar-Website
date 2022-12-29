@@ -651,6 +651,10 @@ width: 484px;
   justify-content: space-between;
 
 }
+.social_media_links {
+   justify-content: flex-end;
+   float: right;
+}
 /* Guitar app section mobile */
 @media (max-width: 31.25rem) {
    .guitar_app_section { 
