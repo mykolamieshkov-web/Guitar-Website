@@ -59,11 +59,15 @@ body {
   position: relative;
   left: 0;
   bottom: 0;
-   padding: 30px;
+   padding: 10px;
    width: 100%;
-   height: 140;
+   height: 380px;
    text-align: center;
+   background-image: url("../img/content/footer/Footer_content.PNG");
+   background-size: cover;
+   background-repeat: no-repeat;
 }
+
 /* header pc */
 .header_top {
    width: 374px;
@@ -183,6 +187,13 @@ justify-content: flex-end;
 @media (max-width: 31.25rem) {
  .header {
    height: fit-content;
+   justify-content: center;
+ }
+ .footer {
+  background-size: contain;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
  }
    .header_top {
       margin: 5px;
@@ -643,18 +654,27 @@ width: 484px;
 }
 
 .guitar_app_section_pictures {
-   width: 320px;
-   height: 320px;
+   width: 520px;
+   height: 370px;
   display: flex;
   justify-self: center;
   border-radius: 50%;
   background: #FF6428;
-  justify-content: space-between;
-
+  justify-content: center;
+gap: 2px;
+text-align: center;
+}
+.guitar_app_section_pictures img {
+   width: 214px;
+   height: 461px;
+   max-width: 100%;
 }
 .social_media_links {
    justify-content: flex-end;
    float: right;
+}
+.customers_section_title:last-child {
+   padding-bottom: 0;
 }
 /* Guitar app section mobile */
 @media (max-width: 31.25rem) {
@@ -677,7 +697,14 @@ padding-right: 10px;
 }
 
 .guitar_app_section_pictures {
-   width: 150px;
-   height: 150px;
+   width: 286px;
+   height: 185px;
+}
+.guitar_app_section_pictures img {
+   width: 107px;
+   height: 230px;
 }
 }
+
+
+   
