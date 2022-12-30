@@ -602,6 +602,7 @@ color: #666666;
       border-radius: 25px 0px 150px 150px;     
     justify-self: flex-start;
     margin-right: 85px;
+    padding-left: 5px;
    }
    .customers_section_text p {
       font-size: 16px;
@@ -660,6 +661,8 @@ width: 484px;
    .guitar_app_section { 
 width: 100vw;
 height: fit-content;
+padding-left: 10px;
+padding-right: 10px;
 }
 .guitar_app_section_content {
    gap: 25px;
