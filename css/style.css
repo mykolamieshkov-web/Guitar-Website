@@ -59,9 +59,9 @@ body {
   position: relative;
   left: 0;
   bottom: 0;
-   padding: 10px;
+   padding: 0;
    width: 100%;
-   height: 380px;
+   height: 320px;
    text-align: center;
    background-image: url("../img/content/footer/Footer_content.PNG");
    background-size: cover;
@@ -655,7 +655,7 @@ width: 484px;
 
 .guitar_app_section_pictures {
    width: 520px;
-   height: 370px;
+   height: 355px;
   display: flex;
   justify-self: center;
   border-radius: 50%;
